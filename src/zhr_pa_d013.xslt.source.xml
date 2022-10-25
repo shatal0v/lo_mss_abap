@@ -1,0 +1,1487 @@
+<xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:sap="http://www.sap.com/sapxsl" version="1.0">
+
+  <xsl:strip-space elements="*"/>
+
+  <xsl:template match="/">
+
+
+    <?mso-application progid="Excel.Sheet"?>
+
+    <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html=
+"http://www.w3.org/TR/REC-html40">
+      <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+        <Author>amivanov1</Author>
+        <LastAuthor>Тунев Анатолий Вячеславович</LastAuthor>
+        <Created>2013-02-08T09:47:06Z</Created>
+        <LastSaved>2020-05-21T06:29:08Z</LastSaved>
+        <Version>14.00</Version>
+      </DocumentProperties>
+      <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+        <AllowPNG/>
+      </OfficeDocumentSettings>
+      <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+        <WindowHeight>6915</WindowHeight>
+        <WindowWidth>20115</WindowWidth>
+        <WindowTopX>240</WindowTopX>
+        <WindowTopY>195</WindowTopY>
+        <ProtectStructure>False</ProtectStructure>
+        <ProtectWindows>False</ProtectWindows>
+      </ExcelWorkbook>
+      <Styles>
+        <Style ss:ID="Default" ss:Name="Normal">
+          <Alignment ss:Vertical="Bottom"/>
+          <Borders/>
+          <Font ss:Color="#000000" ss:FontName="Calibri" ss:Size="11" x:CharSet="204" x:Family="Swiss"/>
+          <Interior/>
+          <NumberFormat/>
+          <Protection/>
+        </Style>
+        <Style ss:ID="m266003124">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="2"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+          </Borders>
+          <Font ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204" x:Family="Swiss"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+          <NumberFormat ss:Format="@"/>
+        </Style>
+        <Style ss:ID="m266003144">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+          </Borders>
+          <Font ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204" x:Family="Swiss"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="m266003224">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+          </Borders>
+          <Font ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204" x:Family="Swiss"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+          <NumberFormat ss:Format="@"/>
+        </Style>
+        <Style ss:ID="m266003244">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204" x:Family="Swiss"/>
+          <Interior/>
+          <NumberFormat ss:Format="@"/>
+        </Style>
+        <Style ss:ID="s62">
+          <Borders/>
+          <Font ss:FontName="Arial Cyr" ss:Size="12" x:CharSet="204"/>
+          <Interior/>
+        </Style>
+        <Style ss:ID="s63">
+          <Borders/>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="12" x:CharSet="204"/>
+          <Interior/>
+        </Style>
+        <Style ss:ID="s64">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+          <Borders/>
+          <Font ss:FontName="Arial Cyr" ss:Size="12" x:CharSet="204"/>
+          <Interior/>
+        </Style>
+        <Style ss:ID="s65">
+          <Borders/>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204"/>
+          <Interior/>
+        </Style>
+        <Style ss:ID="s66">
+          <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+          <Borders/>
+          <Font ss:FontName="Arial Cyr" ss:Size="12" x:CharSet="204"/>
+          <Interior/>
+        </Style>
+        <Style ss:ID="s67">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+          <Borders/>
+          <Font ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204"/>
+          <Interior/>
+        </Style>
+        <Style ss:ID="s68">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+        </Style>
+        <Style ss:ID="s69">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204" x:Family="Swiss"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s70">
+          <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+        </Style>
+        <Style ss:ID="s71">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+          <Borders/>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="12" x:CharSet="204" x:Family="Swiss"/>
+          <Interior/>
+        </Style>
+        <Style ss:ID="s72">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+          </Borders>
+          <Font ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204"/>
+          <Interior/>
+        </Style>
+        <Style ss:ID="s73">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Font ss:Color="#000000" ss:FontName="Calibri" x:CharSet="204" x:Family="Swiss"/>
+        </Style>
+        <Style ss:ID="s74">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="2"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="2"/>
+          </Borders>
+          <Font ss:FontName="Times New Roman" ss:Size="11" x:CharSet="204" x:Family="Roman"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+          <NumberFormat ss:Format="0"/>
+        </Style>
+        <Style ss:ID="s75">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="2"/>
+          </Borders>
+          <Font ss:FontName="Times New Roman" ss:Size="11" x:CharSet="204" x:Family="Roman"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+          <NumberFormat ss:Format="0"/>
+        </Style>
+        <Style ss:ID="s76">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="2"/>
+          </Borders>
+          <Font ss:FontName="Times New Roman" ss:Size="11" x:CharSet="204" x:Family="Roman"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s77">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="2"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="2"/>
+          </Borders>
+          <Font ss:FontName="Times New Roman" ss:Size="11" x:CharSet="204" x:Family="Roman"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s78">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="2"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:FontName="Arial" x:Family="Swiss"/>
+          <Interior/>
+          <NumberFormat ss:Format="@"/>
+        </Style>
+        <Style ss:ID="s79">
+          <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:FontName="Arial" x:Family="Swiss"/>
+          <Interior/>
+          <NumberFormat ss:Format="@"/>
+        </Style>
+        <Style ss:ID="s80">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:FontName="Arial" x:Family="Swiss"/>
+          <Interior/>
+          <NumberFormat ss:Format="@"/>
+        </Style>
+        <Style ss:ID="s81">
+          <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="2"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:FontName="Arial" x:Family="Swiss"/>
+          <Interior/>
+          <NumberFormat ss:Format="@"/>
+        </Style>
+        <Style ss:ID="s81b">
+          <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="2"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial" x:Family="Swiss"/>
+          <Interior/>
+          <NumberFormat ss:Format="@"/>
+        </Style>
+        <Style ss:ID="s82">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="2"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:FontName="Arial" x:Family="Swiss"/>
+          <Interior/>
+          <NumberFormat ss:Format="@"/>
+        </Style>
+        <Style ss:ID="s83">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial" x:CharSet="204" x:Family="Swiss"/>
+          <Interior/>
+          <NumberFormat ss:Format="@"/>
+        </Style>
+        <Style ss:ID="s84">
+          <Alignment ss:Vertical="Center"/>
+          <Borders/>
+          <Font ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204" x:Family="Swiss"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s85">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders/>
+          <Font ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s86">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="2"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204" x:Family="Swiss"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s87">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204" x:Family="Swiss"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s88">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="2"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s89">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s90">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s91">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:FontName="Arial" x:Family="Swiss"/>
+          <Interior/>
+          <NumberFormat ss:Format="@"/>
+        </Style>
+        <Style ss:ID="s92">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="2"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial" x:CharSet="204" x:Family="Swiss"/>
+          <Interior/>
+          <NumberFormat ss:Format="0"/>
+        </Style>
+        <Style ss:ID="s93">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial" x:CharSet="204" x:Family="Swiss"/>
+          <Interior/>
+          <NumberFormat ss:Format="0"/>
+        </Style>
+        <Style ss:ID="s94">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="2"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s95">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s96">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s97">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s98">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204" x:Family="Swiss"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s99">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s100">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial" x:CharSet="204" x:Family="Swiss"/>
+          <Interior/>
+          <NumberFormat ss:Format="@"/>
+        </Style>
+        <Style ss:ID="s101">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="2"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s102">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="2"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204" x:Family="Swiss"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s103">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="2"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s104">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="2"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Bold="1" ss:FontName="Arial" x:CharSet="204" x:Family="Swiss"/>
+          <Interior/>
+          <NumberFormat ss:Format="@"/>
+        </Style>
+        <Style ss:ID="s122">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="2"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:FontName="Times New Roman" ss:Size="11" x:CharSet="204" x:Family="Roman"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s123">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+          <Borders/>
+          <Font ss:Bold="1" ss:FontName="Arial Cyr" ss:Size="12" x:CharSet="204" x:Family="Swiss"/>
+          <Interior/>
+        </Style>
+        <Style ss:ID="s129">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+          </Borders>
+          <Font ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204" x:Family="Swiss"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+          <NumberFormat ss:Format="@"/>
+        </Style>
+        <Style ss:ID="s132">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="2"/>
+          </Borders>
+          <Font ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204" x:Family="Swiss"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s135">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders/>
+          <Font ss:FontName="Arial Cyr" ss:Size="11" x:CharSet="204" x:Family="Swiss"/>
+          <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+          <NumberFormat ss:Format="Fixed"/>
+        </Style>
+      </Styles>
+      <Names>
+        <NamedRange ss:Name="TABLE1" ss:RefersTo="=Лист2!R9C1:R9C52"/>
+        <NamedRange ss:Name="ZZZ1" ss:RefersTo="=Лист2!R1C1"/>
+        <NamedRange ss:Name="ZZZ2" ss:RefersTo="=Лист2!R2C1"/>
+        <NamedRange ss:Name="ZZZ3" ss:RefersTo="=Лист2!R1C3"/>
+        <NamedRange ss:Name="ZZZ4" ss:RefersTo="=Лист2!R2C3"/>
+        <NamedRange ss:Name="ZZZ5" ss:RefersTo="=Лист2!R1C4"/>
+      </Names>
+      <Worksheet ss:Name="Лист2">
+        <Table ss:DefaultRowHeight="15" x:FullColumns="1" x:FullRows="1">
+          <Column ss:AutoFitWidth="0" ss:Span="1" ss:Width="70.5"/>
+          <Column ss:AutoFitWidth="0" ss:Index="3" ss:Width="95.25"/>
+          <Column ss:AutoFitWidth="0" ss:Width="56.25"/>
+          <Column ss:AutoFitWidth="0" ss:Width="114.75"/>
+          <Column ss:AutoFitWidth="0" ss:Span="29" ss:Width="23.25"/>
+          <Column ss:AutoFitWidth="0" ss:Index="36" ss:Width="22.5"/>
+          <Column ss:AutoFitWidth="0" ss:Span="9" ss:Width="23.25"/>
+          <Column ss:Index="47" ss:Width="25.5"/>
+          <Column ss:AutoFitWidth="0" ss:Hidden="1" ss:Width="7.5"/>
+          <Column ss:Span="2" ss:Width="25.5"/>
+          <Row ss:Height="15.75">
+            <Cell ss:StyleID="s67">
+              <NamedCell ss:Name="ZZZ1"/>
+            </Cell>
+            <Cell ss:StyleID="s67"/>
+            <Cell ss:StyleID="s67">
+              <NamedCell ss:Name="ZZZ3"/>
+            </Cell>
+            <Cell ss:StyleID="s62">
+              <NamedCell ss:Name="ZZZ5"/>
+            </Cell>
+            <Cell ss:StyleID="s64"/>
+            <Cell ss:StyleID="s66"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s65"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+          </Row>
+          <Row ss:Height="15.75">
+            <Cell ss:StyleID="s67">
+              <NamedCell ss:Name="ZZZ2"/>
+            </Cell>
+            <Cell ss:StyleID="s67"/>
+            <Cell ss:StyleID="s67">
+              <NamedCell ss:Name="ZZZ4"/>
+            </Cell>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s64"/>
+            <Cell ss:StyleID="s66"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s65"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+          </Row>
+          <Row ss:Height="30">
+            <Cell ss:StyleID="s67"/>
+            <Cell ss:StyleID="s67"/>
+            <Cell ss:MergeAcross="30" ss:StyleID="s123">
+              <Data ss:Type="String">                      Табель учёта рабочего времени за <xsl:value-of select="//HEADER1/F_01"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s65"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:Index="48" ss:StyleID="s70">
+              <Data ss:Type="String">1 1</Data>
+            </Cell>
+          </Row>
+          <Row ss:AutoFitHeight="0" ss:Height="20.25">
+            <Cell ss:StyleID="s72"/>
+            <Cell ss:StyleID="s67"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s71"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s62"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s65"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:StyleID="s63"/>
+            <Cell ss:Index="48" ss:StyleID="s70"/>
+          </Row>
+          <Row ss:AutoFitHeight="0" ss:Height="16.5">
+            <Cell ss:MergeAcross="50" ss:StyleID="m266003244"/>
+          </Row>
+          <Row ss:Height="15.75" ss:StyleID="s68">
+            <Cell ss:MergeDown="2" ss:StyleID="m266003124">
+              <Data ss:Type="String">ТН SAP</Data>
+            </Cell>
+            <Cell ss:MergeDown="2" ss:StyleID="m266003224">
+              <Data ss:Type="String">Табельный номер</Data>
+            </Cell>
+            <Cell ss:MergeDown="2" ss:StyleID="m266003144">
+              <Data ss:Type="String">Фамилия, инициалы</Data>
+            </Cell>
+            <Cell ss:MergeDown="2" ss:StyleID="s129">
+              <Data ss:Type="String">Шифр должн.</Data>
+            </Cell>
+            <Cell ss:MergeDown="2" ss:StyleID="s132">
+              <Data ss:Type="String">Должность</Data>
+            </Cell>
+            <Cell ss:MergeAcross="27" ss:StyleID="s135">
+              <Data ss:Type="String">    Ч И С Л А    М Е С Я Ц А     </Data>
+            </Cell>
+            <Cell ss:StyleID="s84"/>
+            <Cell ss:StyleID="s85"/>
+            <Cell ss:StyleID="s85"/>
+            <Cell ss:StyleID="s94"/>
+            <Cell ss:StyleID="s95"/>
+            <Cell ss:StyleID="s95"/>
+            <Cell ss:StyleID="s95"/>
+            <Cell ss:StyleID="s95"/>
+            <Cell ss:StyleID="s95"/>
+            <Cell ss:StyleID="s95"/>
+            <Cell ss:StyleID="s95"/>
+            <Cell ss:StyleID="s96"/>
+            <Cell ss:StyleID="s89"/>
+            <Cell ss:StyleID="s97"/>
+            <Cell ss:StyleID="s95"/>
+            <Cell ss:StyleID="s96"/>
+            <Cell ss:StyleID="s89"/>
+            <Cell ss:StyleID="s101"/>
+          </Row>
+          <Row ss:StyleID="s68">
+            <Cell ss:Index="6" ss:StyleID="s74">
+              <Data ss:Type="Number">1</Data>
+            </Cell>
+            <Cell ss:StyleID="s75">
+              <Data ss:Type="Number">2</Data>
+            </Cell>
+            <Cell ss:StyleID="s75">
+              <Data ss:Type="Number">3</Data>
+            </Cell>
+            <Cell ss:StyleID="s76">
+              <Data ss:Type="Number">4</Data>
+            </Cell>
+            <Cell ss:StyleID="s75">
+              <Data ss:Type="Number">5</Data>
+            </Cell>
+            <Cell ss:StyleID="s75">
+              <Data ss:Type="Number">6</Data>
+            </Cell>
+            <Cell ss:StyleID="s76">
+              <Data ss:Type="Number">7</Data>
+            </Cell>
+            <Cell ss:StyleID="s75">
+              <Data ss:Type="Number">8</Data>
+            </Cell>
+            <Cell ss:StyleID="s76">
+              <Data ss:Type="Number">9</Data>
+            </Cell>
+            <Cell ss:StyleID="s75">
+              <Data ss:Type="Number">10</Data>
+            </Cell>
+            <Cell ss:StyleID="s76">
+              <Data ss:Type="Number">11</Data>
+            </Cell>
+            <Cell ss:StyleID="s75">
+              <Data ss:Type="Number">12</Data>
+            </Cell>
+            <Cell ss:StyleID="s76">
+              <Data ss:Type="Number">13</Data>
+            </Cell>
+            <Cell ss:StyleID="s75">
+              <Data ss:Type="Number">14</Data>
+            </Cell>
+            <Cell ss:StyleID="s76">
+              <Data ss:Type="Number">15</Data>
+            </Cell>
+            <Cell ss:StyleID="s75">
+              <Data ss:Type="Number">16</Data>
+            </Cell>
+            <Cell ss:StyleID="s76">
+              <Data ss:Type="Number">17</Data>
+            </Cell>
+            <Cell ss:StyleID="s75">
+              <Data ss:Type="Number">18</Data>
+            </Cell>
+            <Cell ss:StyleID="s76">
+              <Data ss:Type="Number">19</Data>
+            </Cell>
+            <Cell ss:StyleID="s75">
+              <Data ss:Type="Number">20</Data>
+            </Cell>
+            <Cell ss:StyleID="s76">
+              <Data ss:Type="Number">21</Data>
+            </Cell>
+            <Cell ss:StyleID="s75">
+              <Data ss:Type="Number">22</Data>
+            </Cell>
+            <Cell ss:StyleID="s76">
+              <Data ss:Type="Number">23</Data>
+            </Cell>
+            <Cell ss:StyleID="s75">
+              <Data ss:Type="Number">24</Data>
+            </Cell>
+            <Cell ss:StyleID="s76">
+              <Data ss:Type="Number">25</Data>
+            </Cell>
+            <Cell ss:StyleID="s75">
+              <Data ss:Type="Number">26</Data>
+            </Cell>
+            <Cell ss:StyleID="s76">
+              <Data ss:Type="Number">27</Data>
+            </Cell>
+            <Cell ss:StyleID="s75">
+              <Data ss:Type="Number">28</Data>
+            </Cell>
+            <Cell ss:StyleID="s76">
+              <Data ss:Type="Number">29</Data>
+            </Cell>
+            <Cell ss:StyleID="s75">
+              <Data ss:Type="Number">30</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+              <Data ss:Type="Number">31</Data>
+            </Cell>
+            <Cell ss:StyleID="s86"/>
+            <Cell ss:StyleID="s69"/>
+            <Cell ss:StyleID="s69"/>
+            <Cell ss:StyleID="s69"/>
+            <Cell ss:StyleID="s69"/>
+            <Cell ss:StyleID="s69"/>
+            <Cell ss:StyleID="s69"/>
+            <Cell ss:StyleID="s69"/>
+            <Cell ss:StyleID="s87"/>
+            <Cell ss:StyleID="s69"/>
+            <Cell ss:StyleID="s98"/>
+            <Cell ss:StyleID="s69"/>
+            <Cell ss:StyleID="s87"/>
+            <Cell ss:StyleID="s69"/>
+            <Cell ss:StyleID="s102"/>
+          </Row>
+          <Row ss:StyleID="s68">
+            <Cell ss:Index="6" ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_03"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_04"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_05"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_06"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_07"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_08"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_09"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_10"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_11"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_12"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_13"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_14"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_15"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_16"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_17"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_18"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_19"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_20"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_21"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_22"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_23"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_24"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_25"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_26"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_27"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_28"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_29"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_30"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_31"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_32"/>
+              </Data>
+            </Cell>
+            <Cell ss:StyleID="s122">
+              <Data ss:Type="String">
+                <xsl:value-of select="//HEADER1/F_33"/>
+              </Data>
+            </Cell>
+
+            <Cell ss:StyleID="s88">
+              <Data ss:Type="String">Р</Data>
+            </Cell>
+            <Cell ss:StyleID="s89">
+              <Data ss:Type="String">С</Data>
+            </Cell>
+            <Cell ss:StyleID="s89">
+              <Data ss:Type="String">В</Data>
+            </Cell>
+            <Cell ss:StyleID="s89">
+              <Data ss:Type="String">О</Data>
+            </Cell>
+            <Cell ss:StyleID="s89">
+              <Data ss:Type="String">Б</Data>
+            </Cell>
+            <Cell ss:StyleID="s89">
+              <Data ss:Type="String">Д</Data>
+            </Cell>
+            <Cell ss:StyleID="s89">
+              <Data ss:Type="String">У</Data>
+            </Cell>
+            <Cell ss:StyleID="s89">
+              <Data ss:Type="String">П</Data>
+            </Cell>
+            <Cell ss:StyleID="s90">
+              <Data ss:Type="String">А</Data>
+            </Cell>
+            <Cell ss:StyleID="s89">
+              <Data ss:Type="String">Н</Data>
+            </Cell>
+            <Cell ss:StyleID="s99">
+              <Data ss:Type="String">Г</Data>
+            </Cell>
+            <Cell ss:StyleID="s89">
+              <Data ss:Type="String">П</Data>
+            </Cell>
+            <Cell ss:StyleID="s90">
+              <Data ss:Type="String">ДД</Data>
+            </Cell>
+            <Cell ss:StyleID="s89">
+              <Data ss:Type="String">ОВ</Data>
+            </Cell>
+            <Cell ss:StyleID="s103">
+              <Data ss:Type="String">ПР</Data>
+            </Cell>
+          </Row>
+
+          <xsl:for-each select="//TAB1/item">
+            <xsl:choose>
+
+              <xsl:when test="F_42 = 'HEAD'">
+
+                <Row ss:AutoFitHeight="1">
+
+                  <Cell ss:StyleID="s78">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_51"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s91">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_55"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s79">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_52"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_53"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+
+
+                  <Cell ss:MergeAcross="46" ss:StyleID="s81b">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_54"/>
+                    </Data>
+                  </Cell>
+
+                </Row>
+              </xsl:when>
+
+              <xsl:otherwise>
+
+                <Row ss:AutoFitHeight="0" ss:Height="51">
+                  <Cell ss:StyleID="s78">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_51"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s91">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_55"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s79">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_52"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_53"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s81">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_54"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+
+
+
+                  <Cell ss:StyleID="s78">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_01"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_02"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_03"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_04"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_05"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_06"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_07"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_08"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_09"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_10"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_11"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_12"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_13"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_14"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_15"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_16"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_17"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_18"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_19"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_20"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_21"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_22"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_23"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_24"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_25"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_26"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_27"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_28"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_29"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s80">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_30"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s82">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_31"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s92">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_32"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s93">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_33"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s93">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_34"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s83">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_35"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s83">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_36"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s83">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_37"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s83">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_38"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s93">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_39"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s83">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_40"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s83">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_41"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s100">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_43"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s93">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_39"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s83">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_44"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s83">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_45"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s104">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_46"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                  <Cell ss:StyleID="s73">
+                    <Data ss:Type="String">
+                      <xsl:value-of select="F_42"/>
+                    </Data>
+                    <NamedCell ss:Name="TABLE1"/>
+                  </Cell>
+                </Row>
+              </xsl:otherwise>
+            </xsl:choose>
+
+
+          </xsl:for-each>
+        </Table>
+
+        <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+          <PageSetup>
+            <Header x:Margin="0.3"/>
+            <Footer x:Margin="0.3"/>
+            <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+          </PageSetup>
+          <Print>
+            <ValidPrinterInfo/>
+            <PaperSizeIndex>9</PaperSizeIndex>
+            <HorizontalResolution>600</HorizontalResolution>
+            <VerticalResolution>600</VerticalResolution>
+          </Print>
+          <Zoom>85</Zoom>
+          <Selected/>
+          <Panes>
+            <Pane>
+              <Number>3</Number>
+              <ActiveRow>9</ActiveRow>
+              <ActiveCol>12</ActiveCol>
+            </Pane>
+          </Panes>
+          <ProtectObjects>False</ProtectObjects>
+          <ProtectScenarios>False</ProtectScenarios>
+        </WorksheetOptions>
+      </Worksheet>
+    </Workbook>
+  </xsl:template>
+</xsl:transform>

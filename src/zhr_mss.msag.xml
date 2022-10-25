@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZHR_MSS</ARBGB>
+    <MASTERLANG>R</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Для &amp;1 нет данных для просмотра</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Не удалось определить таб номер для пользователя &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Файл сохранён</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>График отсутствует</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>График не выгружен</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Документ отсутствует в системе</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Текст тела письма в SO10 не заведен. Имя текста - &amp;, ид.текста - &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>CompMainData is found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>EmpEvent is found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>ENTRANCEUSER не найден</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Данные получены</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Structure is found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>MAINUSERDATA is found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>IPR is found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Пользователь &amp;1 не найден в системе, обратитесь к администратору</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Документ не найден</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Пользователь &amp;1 не является руководителем ОИВ</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Документ найден</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Неверный тип документа</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Табельный номер пользователя &amp;1 не активен в системе</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Объект &amp;1 не существует в системе</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Данные заявки не найдены (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Отсутствует настройка для ВО в таблице ZTMSS_SIGN_DOC</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Нет соответствующей записи в справочной таблице (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Не заполнен параметр в STVARV &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Ошибка при формировании документа</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Не удалось определить пользователя</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZHR_MSS</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Не удалось определить таб. номер заместителя</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

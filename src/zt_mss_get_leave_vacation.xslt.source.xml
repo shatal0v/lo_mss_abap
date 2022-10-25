@@ -1,0 +1,1449 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates">
+
+  <tt:root name="MAIN"/>
+
+  <tt:template>
+    <?mso-application progid="Word.Document"?>
+    <w:wordDocument xmlns:aml="http://schemas.microsoft.com/aml/2001/core" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:mc=
+"http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w=
+"http://schemas.microsoft.com/office/word/2003/wordml" xmlns:wx="http://schemas.microsoft.com/office/word/2003/auxHint" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wsp="http://schemas.microsoft.com/office/word/2003/wordml/sp2"
+xmlns:sl="http://schemas.microsoft.com/schemaLibrary/2003/core" w:embeddedObjPresent="no" w:macrosPresent="no" w:ocxPresent="no" xml:space="preserve">
+      <w:ignoreSubtree w:val="http://schemas.microsoft.com/office/word/2003/wordml/sp2"/>
+      <o:DocumentProperties>
+        <o:Author>Екатерина Александровна Шелест</o:Author>
+        <o:LastAuthor>ekaterina</o:LastAuthor>
+        <o:Revision>1</o:Revision>
+        <o:TotalTime>0</o:TotalTime>
+        <o:LastPrinted>2017-09-26T07:28:00Z</o:LastPrinted>
+        <o:Created>2017-10-17T13:56:00Z</o:Created>
+        <o:LastSaved>2017-10-17T13:56:00Z</o:LastSaved>
+        <o:Pages>1</o:Pages>
+        <o:Words>79</o:Words>
+        <o:Characters>452</o:Characters>
+        <o:Company>Hewlett-Packard Company</o:Company>
+        <o:Lines>3</o:Lines>
+        <o:Paragraphs>1</o:Paragraphs>
+        <o:CharactersWithSpaces>530</o:CharactersWithSpaces>
+        <o:Version>14</o:Version>
+      </o:DocumentProperties>
+      <w:fonts>
+        <w:defaultFonts w:ascii="Calibri" w:cs="Times New Roman" w:fareast="Calibri" w:h-ansi="Calibri"/>
+        <w:font w:name="Times New Roman">
+          <w:panose-1 w:val="02020603050405020304"/>
+          <w:charset w:val="CC"/>
+          <w:family w:val="Roman"/>
+          <w:pitch w:val="variable"/>
+          <w:sig w:csb-0="000001FF" w:csb-1="00000000" w:usb-0="E0002AFF" w:usb-1="C0007841" w:usb-2="00000009" w:usb-3="00000000"/>
+        </w:font>
+        <w:font w:name="Cambria Math">
+          <w:panose-1 w:val="02040503050406030204"/>
+          <w:charset w:val="CC"/>
+          <w:family w:val="Roman"/>
+          <w:pitch w:val="variable"/>
+          <w:sig w:csb-0="0000019F" w:csb-1="00000000" w:usb-0="E00002FF" w:usb-1="420024FF" w:usb-2="00000000" w:usb-3="00000000"/>
+        </w:font>
+        <w:font w:name="Calibri">
+          <w:panose-1 w:val="020F0502020204030204"/>
+          <w:charset w:val="CC"/>
+          <w:family w:val="Swiss"/>
+          <w:pitch w:val="variable"/>
+          <w:sig w:csb-0="0000019F" w:csb-1="00000000" w:usb-0="E10002FF" w:usb-1="4000ACFF" w:usb-2="00000009" w:usb-3="00000000"/>
+        </w:font>
+      </w:fonts>
+      <w:styles>
+        <w:versionOfBuiltInStylenames w:val="7"/>
+        <w:latentStyles w:defLockedState="off" w:latentStyleCount="267">
+          <w:lsdException w:name="Normal"/>
+          <w:lsdException w:name="heading 1"/>
+          <w:lsdException w:name="heading 2"/>
+          <w:lsdException w:name="heading 3"/>
+          <w:lsdException w:name="heading 4"/>
+          <w:lsdException w:name="heading 5"/>
+          <w:lsdException w:name="heading 6"/>
+          <w:lsdException w:name="heading 7"/>
+          <w:lsdException w:name="heading 8"/>
+          <w:lsdException w:name="heading 9"/>
+          <w:lsdException w:name="toc 1"/>
+          <w:lsdException w:name="toc 2"/>
+          <w:lsdException w:name="toc 3"/>
+          <w:lsdException w:name="toc 4"/>
+          <w:lsdException w:name="toc 5"/>
+          <w:lsdException w:name="toc 6"/>
+          <w:lsdException w:name="toc 7"/>
+          <w:lsdException w:name="toc 8"/>
+          <w:lsdException w:name="toc 9"/>
+          <w:lsdException w:name="caption"/>
+          <w:lsdException w:name="Title"/>
+          <w:lsdException w:name="Default Paragraph Font"/>
+          <w:lsdException w:name="Subtitle"/>
+          <w:lsdException w:name="Strong"/>
+          <w:lsdException w:name="Emphasis"/>
+          <w:lsdException w:name="Table Grid"/>
+          <w:lsdException w:name="Placeholder Text"/>
+          <w:lsdException w:name="No Spacing"/>
+          <w:lsdException w:name="Light Shading"/>
+          <w:lsdException w:name="Light List"/>
+          <w:lsdException w:name="Light Grid"/>
+          <w:lsdException w:name="Medium Shading 1"/>
+          <w:lsdException w:name="Medium Shading 2"/>
+          <w:lsdException w:name="Medium List 1"/>
+          <w:lsdException w:name="Medium List 2"/>
+          <w:lsdException w:name="Medium Grid 1"/>
+          <w:lsdException w:name="Medium Grid 2"/>
+          <w:lsdException w:name="Medium Grid 3"/>
+          <w:lsdException w:name="Dark List"/>
+          <w:lsdException w:name="Colorful Shading"/>
+          <w:lsdException w:name="Colorful List"/>
+          <w:lsdException w:name="Colorful Grid"/>
+          <w:lsdException w:name="Light Shading Accent 1"/>
+          <w:lsdException w:name="Light List Accent 1"/>
+          <w:lsdException w:name="Light Grid Accent 1"/>
+          <w:lsdException w:name="Medium Shading 1 Accent 1"/>
+          <w:lsdException w:name="Medium Shading 2 Accent 1"/>
+          <w:lsdException w:name="Medium List 1 Accent 1"/>
+          <w:lsdException w:name="Revision"/>
+          <w:lsdException w:name="List Paragraph"/>
+          <w:lsdException w:name="Quote"/>
+          <w:lsdException w:name="Intense Quote"/>
+          <w:lsdException w:name="Medium List 2 Accent 1"/>
+          <w:lsdException w:name="Medium Grid 1 Accent 1"/>
+          <w:lsdException w:name="Medium Grid 2 Accent 1"/>
+          <w:lsdException w:name="Medium Grid 3 Accent 1"/>
+          <w:lsdException w:name="Dark List Accent 1"/>
+          <w:lsdException w:name="Colorful Shading Accent 1"/>
+          <w:lsdException w:name="Colorful List Accent 1"/>
+          <w:lsdException w:name="Colorful Grid Accent 1"/>
+          <w:lsdException w:name="Light Shading Accent 2"/>
+          <w:lsdException w:name="Light List Accent 2"/>
+          <w:lsdException w:name="Light Grid Accent 2"/>
+          <w:lsdException w:name="Medium Shading 1 Accent 2"/>
+          <w:lsdException w:name="Medium Shading 2 Accent 2"/>
+          <w:lsdException w:name="Medium List 1 Accent 2"/>
+          <w:lsdException w:name="Medium List 2 Accent 2"/>
+          <w:lsdException w:name="Medium Grid 1 Accent 2"/>
+          <w:lsdException w:name="Medium Grid 2 Accent 2"/>
+          <w:lsdException w:name="Medium Grid 3 Accent 2"/>
+          <w:lsdException w:name="Dark List Accent 2"/>
+          <w:lsdException w:name="Colorful Shading Accent 2"/>
+          <w:lsdException w:name="Colorful List Accent 2"/>
+          <w:lsdException w:name="Colorful Grid Accent 2"/>
+          <w:lsdException w:name="Light Shading Accent 3"/>
+          <w:lsdException w:name="Light List Accent 3"/>
+          <w:lsdException w:name="Light Grid Accent 3"/>
+          <w:lsdException w:name="Medium Shading 1 Accent 3"/>
+          <w:lsdException w:name="Medium Shading 2 Accent 3"/>
+          <w:lsdException w:name="Medium List 1 Accent 3"/>
+          <w:lsdException w:name="Medium List 2 Accent 3"/>
+          <w:lsdException w:name="Medium Grid 1 Accent 3"/>
+          <w:lsdException w:name="Medium Grid 2 Accent 3"/>
+          <w:lsdException w:name="Medium Grid 3 Accent 3"/>
+          <w:lsdException w:name="Dark List Accent 3"/>
+          <w:lsdException w:name="Colorful Shading Accent 3"/>
+          <w:lsdException w:name="Colorful List Accent 3"/>
+          <w:lsdException w:name="Colorful Grid Accent 3"/>
+          <w:lsdException w:name="Light Shading Accent 4"/>
+          <w:lsdException w:name="Light List Accent 4"/>
+          <w:lsdException w:name="Light Grid Accent 4"/>
+          <w:lsdException w:name="Medium Shading 1 Accent 4"/>
+          <w:lsdException w:name="Medium Shading 2 Accent 4"/>
+          <w:lsdException w:name="Medium List 1 Accent 4"/>
+          <w:lsdException w:name="Medium List 2 Accent 4"/>
+          <w:lsdException w:name="Medium Grid 1 Accent 4"/>
+          <w:lsdException w:name="Medium Grid 2 Accent 4"/>
+          <w:lsdException w:name="Medium Grid 3 Accent 4"/>
+          <w:lsdException w:name="Dark List Accent 4"/>
+          <w:lsdException w:name="Colorful Shading Accent 4"/>
+          <w:lsdException w:name="Colorful List Accent 4"/>
+          <w:lsdException w:name="Colorful Grid Accent 4"/>
+          <w:lsdException w:name="Light Shading Accent 5"/>
+          <w:lsdException w:name="Light List Accent 5"/>
+          <w:lsdException w:name="Light Grid Accent 5"/>
+          <w:lsdException w:name="Medium Shading 1 Accent 5"/>
+          <w:lsdException w:name="Medium Shading 2 Accent 5"/>
+          <w:lsdException w:name="Medium List 1 Accent 5"/>
+          <w:lsdException w:name="Medium List 2 Accent 5"/>
+          <w:lsdException w:name="Medium Grid 1 Accent 5"/>
+          <w:lsdException w:name="Medium Grid 2 Accent 5"/>
+          <w:lsdException w:name="Medium Grid 3 Accent 5"/>
+          <w:lsdException w:name="Dark List Accent 5"/>
+          <w:lsdException w:name="Colorful Shading Accent 5"/>
+          <w:lsdException w:name="Colorful List Accent 5"/>
+          <w:lsdException w:name="Colorful Grid Accent 5"/>
+          <w:lsdException w:name="Light Shading Accent 6"/>
+          <w:lsdException w:name="Light List Accent 6"/>
+          <w:lsdException w:name="Light Grid Accent 6"/>
+          <w:lsdException w:name="Medium Shading 1 Accent 6"/>
+          <w:lsdException w:name="Medium Shading 2 Accent 6"/>
+          <w:lsdException w:name="Medium List 1 Accent 6"/>
+          <w:lsdException w:name="Medium List 2 Accent 6"/>
+          <w:lsdException w:name="Medium Grid 1 Accent 6"/>
+          <w:lsdException w:name="Medium Grid 2 Accent 6"/>
+          <w:lsdException w:name="Medium Grid 3 Accent 6"/>
+          <w:lsdException w:name="Dark List Accent 6"/>
+          <w:lsdException w:name="Colorful Shading Accent 6"/>
+          <w:lsdException w:name="Colorful List Accent 6"/>
+          <w:lsdException w:name="Colorful Grid Accent 6"/>
+          <w:lsdException w:name="Subtle Emphasis"/>
+          <w:lsdException w:name="Intense Emphasis"/>
+          <w:lsdException w:name="Subtle Reference"/>
+          <w:lsdException w:name="Intense Reference"/>
+          <w:lsdException w:name="Book Title"/>
+          <w:lsdException w:name="Bibliography"/>
+          <w:lsdException w:name="TOC Heading"/>
+        </w:latentStyles>
+        <w:style w:default="on" w:styleId="a" w:type="paragraph">
+          <w:name w:val="Normal"/>
+          <wx:uiName wx:val="Обычный"/>
+          <w:pPr>
+            <w:spacing w:after="200" w:line="276" w:line-rule="auto"/>
+          </w:pPr>
+          <w:rPr>
+            <wx:font wx:val="Calibri"/>
+            <w:sz w:val="22"/>
+            <w:sz-cs w:val="22"/>
+            <w:lang w:bidi="AR-SA" w:fareast="EN-US" w:val="RU"/>
+          </w:rPr>
+        </w:style>
+        <w:style w:default="on" w:styleId="a0" w:type="character">
+          <w:name w:val="Default Paragraph Font"/>
+          <wx:uiName wx:val="Основной шрифт абзаца"/>
+        </w:style>
+        <w:style w:default="on" w:styleId="a1" w:type="table">
+          <w:name w:val="Normal Table"/>
+          <wx:uiName wx:val="Обычная таблица"/>
+          <w:rPr>
+            <wx:font wx:val="Calibri"/>
+            <w:lang w:bidi="AR-SA" w:fareast="RU" w:val="RU"/>
+          </w:rPr>
+          <w:tblPr>
+            <w:tblInd w:type="dxa" w:w="0"/>
+            <w:tblCellMar>
+              <w:top w:type="dxa" w:w="0"/>
+              <w:left w:type="dxa" w:w="108"/>
+              <w:bottom w:type="dxa" w:w="0"/>
+              <w:right w:type="dxa" w:w="108"/>
+            </w:tblCellMar>
+          </w:tblPr>
+        </w:style>
+        <w:style w:default="on" w:styleId="a2" w:type="list">
+          <w:name w:val="No List"/>
+          <wx:uiName wx:val="Нет списка"/>
+        </w:style>
+        <w:style w:styleId="a3" w:type="paragraph">
+          <w:name w:val="header"/>
+          <wx:uiName wx:val="Верхний колонтитул"/>
+          <w:basedOn w:val="a"/>
+          <w:link w:val="a4"/>
+          <w:rsid w:val="000C1B83"/>
+          <w:pPr>
+            <w:tabs>
+              <w:tab w:pos="4677" w:val="center"/>
+              <w:tab w:pos="9355" w:val="right"/>
+            </w:tabs>
+            <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+          </w:pPr>
+          <w:rPr>
+            <wx:font wx:val="Calibri"/>
+          </w:rPr>
+        </w:style>
+        <w:style w:styleId="a4" w:type="character">
+          <w:name w:val="Верхний колонтитул Знак"/>
+          <w:basedOn w:val="a0"/>
+          <w:link w:val="a3"/>
+          <w:rsid w:val="000C1B83"/>
+        </w:style>
+        <w:style w:styleId="a5" w:type="paragraph">
+          <w:name w:val="footer"/>
+          <wx:uiName wx:val="Нижний колонтитул"/>
+          <w:basedOn w:val="a"/>
+          <w:link w:val="a6"/>
+          <w:rsid w:val="000C1B83"/>
+          <w:pPr>
+            <w:tabs>
+              <w:tab w:pos="4677" w:val="center"/>
+              <w:tab w:pos="9355" w:val="right"/>
+            </w:tabs>
+            <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+          </w:pPr>
+          <w:rPr>
+            <wx:font wx:val="Calibri"/>
+          </w:rPr>
+        </w:style>
+        <w:style w:styleId="a6" w:type="character">
+          <w:name w:val="Нижний колонтитул Знак"/>
+          <w:basedOn w:val="a0"/>
+          <w:link w:val="a5"/>
+          <w:rsid w:val="000C1B83"/>
+        </w:style>
+        <w:style w:styleId="a7" w:type="table">
+          <w:name w:val="Table Grid"/>
+          <wx:uiName wx:val="Сетка таблицы"/>
+          <w:basedOn w:val="a1"/>
+          <w:rsid w:val="005F223C"/>
+          <w:rPr>
+            <wx:font wx:val="Calibri"/>
+          </w:rPr>
+          <w:tblPr>
+            <w:tblInd w:type="dxa" w:w="0"/>
+            <w:tblBorders>
+              <w:top w:color="auto" w:space="0" w:sz="4" w:val="single" wx:bdrwidth="10"/>
+              <w:left w:color="auto" w:space="0" w:sz="4" w:val="single" wx:bdrwidth="10"/>
+              <w:bottom w:color="auto" w:space="0" w:sz="4" w:val="single" wx:bdrwidth="10"/>
+              <w:right w:color="auto" w:space="0" w:sz="4" w:val="single" wx:bdrwidth="10"/>
+              <w:insideH w:color="auto" w:space="0" w:sz="4" w:val="single" wx:bdrwidth="10"/>
+              <w:insideV w:color="auto" w:space="0" w:sz="4" w:val="single" wx:bdrwidth="10"/>
+            </w:tblBorders>
+            <w:tblCellMar>
+              <w:top w:type="dxa" w:w="0"/>
+              <w:left w:type="dxa" w:w="108"/>
+              <w:bottom w:type="dxa" w:w="0"/>
+              <w:right w:type="dxa" w:w="108"/>
+            </w:tblCellMar>
+          </w:tblPr>
+        </w:style>
+      </w:styles>
+      <w:shapeDefaults>
+        <o:shapedefaults spidmax="1026" v:ext="edit"/>
+        <o:shapelayout v:ext="edit">
+          <o:idmap data="1" v:ext="edit"/>
+        </o:shapelayout>
+      </w:shapeDefaults>
+      <w:docPr>
+        <w:view w:val="print"/>
+        <w:zoom w:percent="100"/>
+        <w:doNotEmbedSystemFonts/>
+        <w:defaultTabStop w:val="708"/>
+        <w:punctuationKerning/>
+        <w:characterSpacingControl w:val="DontCompress"/>
+        <w:optimizeForBrowser/>
+        <w:allowPNG/>
+        <w:validateAgainstSchema/>
+        <w:saveInvalidXML w:val="off"/>
+        <w:ignoreMixedContent w:val="off"/>
+        <w:alwaysShowPlaceholderText w:val="off"/>
+        <w:footnotePr>
+          <w:footnote w:type="separator">
+            <w:p wsp:rsidP="000C1B83" wsp:rsidR="002629BB" wsp:rsidRDefault="002629BB">
+              <w:pPr>
+                <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              </w:pPr>
+              <w:r>
+                <w:separator/>
+              </w:r>
+            </w:p>
+          </w:footnote>
+          <w:footnote w:type="continuation-separator">
+            <w:p wsp:rsidP="000C1B83" wsp:rsidR="002629BB" wsp:rsidRDefault="002629BB">
+              <w:pPr>
+                <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              </w:pPr>
+              <w:r>
+                <w:continuationSeparator/>
+              </w:r>
+            </w:p>
+          </w:footnote>
+        </w:footnotePr>
+        <w:endnotePr>
+          <w:endnote w:type="separator">
+            <w:p wsp:rsidP="000C1B83" wsp:rsidR="002629BB" wsp:rsidRDefault="002629BB">
+              <w:pPr>
+                <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              </w:pPr>
+              <w:r>
+                <w:separator/>
+              </w:r>
+            </w:p>
+          </w:endnote>
+          <w:endnote w:type="continuation-separator">
+            <w:p wsp:rsidP="000C1B83" wsp:rsidR="002629BB" wsp:rsidRDefault="002629BB">
+              <w:pPr>
+                <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              </w:pPr>
+              <w:r>
+                <w:continuationSeparator/>
+              </w:r>
+            </w:p>
+          </w:endnote>
+        </w:endnotePr>
+        <w:compat>
+          <w:breakWrappedTables/>
+          <w:snapToGridInCell/>
+          <w:wrapTextWithPunct/>
+          <w:useAsianBreakRules/>
+          <w:dontGrowAutofit/>
+        </w:compat>
+        <wsp:rsids>
+          <wsp:rsidRoot wsp:val="0091293E"/>
+          <wsp:rsid wsp:val="000C1B83"/>
+          <wsp:rsid wsp:val="00183F40"/>
+          <wsp:rsid wsp:val="001C1125"/>
+          <wsp:rsid wsp:val="002619CC"/>
+          <wsp:rsid wsp:val="002629BB"/>
+          <wsp:rsid wsp:val="003058C3"/>
+          <wsp:rsid wsp:val="004A0103"/>
+          <wsp:rsid wsp:val="004B5946"/>
+          <wsp:rsid wsp:val="005C1A52"/>
+          <wsp:rsid wsp:val="005E4D90"/>
+          <wsp:rsid wsp:val="005F223C"/>
+          <wsp:rsid wsp:val="0064621F"/>
+          <wsp:rsid wsp:val="006C7EC1"/>
+          <wsp:rsid wsp:val="0091293E"/>
+          <wsp:rsid wsp:val="009B1B4B"/>
+          <wsp:rsid wsp:val="009C511E"/>
+          <wsp:rsid wsp:val="00A47536"/>
+          <wsp:rsid wsp:val="00B407A9"/>
+          <wsp:rsid wsp:val="00CA7D9A"/>
+          <wsp:rsid wsp:val="00CC5536"/>
+          <wsp:rsid wsp:val="00D0734F"/>
+          <wsp:rsid wsp:val="00E05E38"/>
+          <wsp:rsid wsp:val="00E1006D"/>
+          <wsp:rsid wsp:val="00E9246F"/>
+          <wsp:rsid wsp:val="00EF4729"/>
+        </wsp:rsids>
+      </w:docPr>
+      <w:body>
+        <wx:sect>
+          <w:tbl>
+            <w:tblPr>
+              <w:tblW w:type="auto" w:w="0"/>
+              <w:tblInd w:type="dxa" w:w="-601"/>
+              <w:tblLook w:val="04A0"/>
+            </w:tblPr>
+            <w:tblGrid>
+              <w:gridCol w:w="4820"/>
+              <w:gridCol w:w="5528"/>
+            </w:tblGrid>
+            <w:tr wsp:rsidR="00CA7D9A" wsp:rsidRPr="00A47536" wsp:rsidTr="002619CC">
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="4820"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="0064621F" wsp:rsidR="00CA7D9A" wsp:rsidRDefault="00CA7D9A" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                    </w:rPr>
+                  </w:pPr>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="5528"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="00A47536" wsp:rsidR="00CA7D9A" wsp:rsidRDefault="00A47536" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                      <w:lang w:val="EN-US"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                      <w:lang w:val="EN-US"/>
+                    </w:rPr>
+                    <w:t><tt:value ref="MAIN.Field_01"/></w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+            <w:tr wsp:rsidR="00CA7D9A" wsp:rsidRPr="00A47536" wsp:rsidTr="002619CC">
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="4820"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="0064621F" wsp:rsidR="00CA7D9A" wsp:rsidRDefault="00CA7D9A" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                    </w:rPr>
+                  </w:pPr>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="5528"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="00A47536" wsp:rsidR="00CA7D9A" wsp:rsidRDefault="00A47536" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                      <w:lang w:val="EN-US"/>
+                    </w:rPr>
+                    <w:t><tt:value ref="MAIN.Field_02"/></w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+            <w:tr wsp:rsidR="00CA7D9A" wsp:rsidRPr="00A47536" wsp:rsidTr="002619CC">
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="4820"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="0064621F" wsp:rsidR="00CA7D9A" wsp:rsidRDefault="00CA7D9A" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                    </w:rPr>
+                  </w:pPr>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="5528"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="00A47536" wsp:rsidR="00CA7D9A" wsp:rsidRDefault="002619CC" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                    </w:rPr>
+                    <w:t>от <tt:value ref="MAIN.Field_03"/></w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+            <w:tr wsp:rsidR="00CA7D9A" wsp:rsidRPr="00A47536" wsp:rsidTr="002619CC">
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="4820"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="0064621F" wsp:rsidR="00CA7D9A" wsp:rsidRDefault="00CA7D9A" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                    </w:rPr>
+                  </w:pPr>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="5528"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="00A47536" wsp:rsidR="00CA7D9A" wsp:rsidRDefault="00A47536" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="20"/>
+                      <w:sz-cs w:val="20"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                      <w:lang w:val="EN-US"/>
+                    </w:rPr>
+                    <w:t><tt:value ref="MAIN.Field_04"/></w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+          </w:tbl>
+          <w:p wsp:rsidP="0091293E" wsp:rsidR="00CA7D9A" wsp:rsidRDefault="00CA7D9A" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:ind w:left="5103"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p wsp:rsidP="0091293E" wsp:rsidR="00CA7D9A" wsp:rsidRDefault="00CA7D9A" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:ind w:left="5103"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p wsp:rsidP="0091293E" wsp:rsidR="0091293E" wsp:rsidRDefault="0091293E" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <!--<w:p wsp:rsidP="0091293E" wsp:rsidR="0091293E" wsp:rsidRDefault="0091293E" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r wsp:rsidRPr="00A47536">
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+              <w:t>Заявление</w:t>
+            </w:r>
+          </w:p>
+          <w:p wsp:rsidP="0091293E" wsp:rsidR="0091293E" wsp:rsidRDefault="0091293E" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p wsp:rsidP="0091293E" wsp:rsidR="00E05E38" wsp:rsidRDefault="00E05E38" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p wsp:rsidP="004A0103" wsp:rsidR="00E05E38" wsp:rsidRDefault="00A47536" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:ind w:first-line="708"/>
+              <w:jc w:val="both"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r wsp:rsidRPr="00A47536">
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+              <w:t><tt:value ref="MAIN.Field_05"/> <tt:value ref="MAIN.Field_06"/></w:t>
+            </w:r>
+          </w:p>
+          <w:p wsp:rsidP="00E05E38" wsp:rsidR="00E05E38" wsp:rsidRDefault="00A47536" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:ind w:first-line="708"/>
+              <w:jc w:val="both"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r wsp:rsidRPr="00A47536">
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+              <w:t><tt:value ref="MAIN.Field_07"/></w:t>
+            </w:r>
+          </w:p>
+          <w:p wsp:rsidP="0091293E" wsp:rsidR="000C1B83" wsp:rsidRDefault="000C1B83" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:ind w:first-line="709"/>
+              <w:jc w:val="both"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p wsp:rsidP="004A0103" wsp:rsidR="000C1B83" wsp:rsidRDefault="000C1B83" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:jc w:val="both"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p wsp:rsidP="00D0734F" wsp:rsidR="00D0734F" wsp:rsidRDefault="00D0734F" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:ind w:left="5103"/>
+              <w:jc w:val="both"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>-->
+          <w:p wsp:rsidP="00D0734F" wsp:rsidR="00D0734F" wsp:rsidRDefault="00D0734F" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:b/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r wsp:rsidRPr="00A47536">
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:b/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+              <w:t>Уважаемый <tt:value ref="MAIN.Field_10"/>!</w:t>
+            </w:r>
+          </w:p>
+          <w:p wsp:rsidP="00D0734F" wsp:rsidR="00D0734F" wsp:rsidRDefault="00D0734F" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:b/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p wsp:rsidP="00D0734F" wsp:rsidR="00D0734F" wsp:rsidRDefault="00D0734F" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:ind w:first-line="709"/>
+              <w:jc w:val="both"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r wsp:rsidRPr="00A47536">
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+              <w:t>Прошу внести изменение в график отпусков на <tt:value ref="MAIN.Field_10"/> год в отношении работника(ов) ОИВ ЛО:</w:t>
+            </w:r>
+          </w:p>
+          <w:p wsp:rsidP="00D0734F" wsp:rsidR="00D0734F" wsp:rsidRDefault="00D0734F" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:jc w:val="both"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:tbl>
+            <w:tblPr>
+              <w:tblW w:type="dxa" w:w="10348"/>
+              <w:tblInd w:type="dxa" w:w="-459"/>
+              <w:tblBorders>
+                <w:top w:color="auto" w:space="0" w:sz="4" w:val="single" wx:bdrwidth="10"/>
+                <w:left w:color="auto" w:space="0" w:sz="4" w:val="single" wx:bdrwidth="10"/>
+                <w:bottom w:color="auto" w:space="0" w:sz="4" w:val="single" wx:bdrwidth="10"/>
+                <w:right w:color="auto" w:space="0" w:sz="4" w:val="single" wx:bdrwidth="10"/>
+                <w:insideH w:color="auto" w:space="0" w:sz="4" w:val="single" wx:bdrwidth="10"/>
+                <w:insideV w:color="auto" w:space="0" w:sz="4" w:val="single" wx:bdrwidth="10"/>
+              </w:tblBorders>
+              <w:tblLayout w:type="Fixed"/>
+              <w:tblLook w:val="04A0"/>
+            </w:tblPr>
+            <w:tblGrid>
+              <w:gridCol w:w="1985"/>
+              <w:gridCol w:w="2268"/>
+              <w:gridCol w:w="1559"/>
+              <w:gridCol w:w="1418"/>
+              <w:gridCol w:w="1559"/>
+              <w:gridCol w:w="1559"/>
+            </w:tblGrid>
+            <w:tr wsp:rsidR="00A47536" wsp:rsidRPr="00A47536" wsp:rsidTr="006C7EC1">
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="1985"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="006C7EC1" wsp:rsidR="00D0734F" wsp:rsidRDefault="00D0734F" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:jc w:val="center"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:b/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:b/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                    </w:rPr>
+                    <w:t>ФИО</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="2268"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="006C7EC1" wsp:rsidR="00D0734F" wsp:rsidRDefault="00D0734F" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:jc w:val="center"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:b/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:b/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                    </w:rPr>
+                    <w:t>Должность</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="1559"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="006C7EC1" wsp:rsidR="00D0734F" wsp:rsidRDefault="00D0734F" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:jc w:val="center"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:b/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:b/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                    </w:rPr>
+                    <w:t>Утвержден-ный период отпуска</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="1418"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="006C7EC1" wsp:rsidR="00D0734F" wsp:rsidRDefault="00D0734F" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:jc w:val="center"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:b/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:b/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                    </w:rPr>
+                    <w:t>Изменен-ный период отпуска</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="1559"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="006C7EC1" wsp:rsidR="00D0734F" wsp:rsidRDefault="00D0734F" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:jc w:val="center"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:b/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:b/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                    </w:rPr>
+                    <w:t>Аргументи-рованная причина переноса</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="1559"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="006C7EC1" wsp:rsidR="00D0734F" wsp:rsidRDefault="00D0734F" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:jc w:val="center"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:b/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:b/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                    </w:rPr>
+                    <w:t>Согласие работника</w:t>
+                  </w:r>
+                </w:p>
+                <w:p wsp:rsidP="006C7EC1" wsp:rsidR="00D0734F" wsp:rsidRDefault="00D0734F" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:jc w:val="center"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:b/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:b/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                    </w:rPr>
+                    <w:t>(подпись)</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+            <w:tr wsp:rsidR="00A47536" wsp:rsidRPr="00A47536" wsp:rsidTr="006C7EC1">
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="1985"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="00A47536" wsp:rsidR="00D0734F" wsp:rsidRDefault="00A47536" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:jc w:val="both"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                      <w:lang w:val="EN-US"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                      <w:lang w:val="EN-US"/>
+                    </w:rPr>
+                    <w:t><tt:value ref="MAIN.Field_04"/></w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="2268"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="00A47536" wsp:rsidR="00D0734F" wsp:rsidRDefault="00A47536" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:jc w:val="both"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                      <w:lang w:val="EN-US"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                      <w:lang w:val="EN-US"/>
+                    </w:rPr>
+                    <w:t><tt:value ref="MAIN.Field_03"/></w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="1559"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="006C7EC1" wsp:rsidR="00D0734F" wsp:rsidRDefault="00A47536" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:jc w:val="both"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                      <w:lang w:val="EN-US"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                      <w:lang w:val="EN-US"/>
+                    </w:rPr>
+                    <w:t><tt:value ref="MAIN.Field_12"/></w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="1418"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="006C7EC1" wsp:rsidR="00D0734F" wsp:rsidRDefault="00A47536" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:jc w:val="both"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                      <w:lang w:val="EN-US"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                      <w:lang w:val="EN-US"/>
+                    </w:rPr>
+                    <w:t><tt:value ref="MAIN.Field_13"/></w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="1559"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="006C7EC1" wsp:rsidR="00D0734F" wsp:rsidRDefault="00A47536" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:jc w:val="both"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                      <w:lang w:val="EN-US"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                      <w:lang w:val="EN-US"/>
+                    </w:rPr>
+                    <w:t><tt:value ref="MAIN.Field_14"/></w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="1559"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="006C7EC1" wsp:rsidR="00D0734F" wsp:rsidRDefault="00D0734F" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:jc w:val="both"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="24"/>
+                      <w:sz-cs w:val="24"/>
+                    </w:rPr>
+                  </w:pPr>
+                </w:p>
+              </w:tc>
+            </w:tr>
+          </w:tbl>
+          <w:p wsp:rsidP="0091293E" wsp:rsidR="000C1B83" wsp:rsidRDefault="000C1B83" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:ind w:first-line="709"/>
+              <w:jc w:val="both"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p wsp:rsidP="0091293E" wsp:rsidR="00CC5536" wsp:rsidRDefault="00CC5536" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:ind w:first-line="709"/>
+              <w:jc w:val="both"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p wsp:rsidP="0091293E" wsp:rsidR="004A0103" wsp:rsidRDefault="004A0103" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:ind w:first-line="709"/>
+              <w:jc w:val="both"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p wsp:rsidP="0091293E" wsp:rsidR="004A0103" wsp:rsidRDefault="004A0103" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:ind w:first-line="709"/>
+              <w:jc w:val="both"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:tbl>
+            <w:tblPr>
+              <w:tblW w:type="auto" w:w="0"/>
+              <w:tblInd w:type="dxa" w:w="-601"/>
+              <w:tblLook w:val="04A0"/>
+            </w:tblPr>
+            <w:tblGrid>
+              <w:gridCol w:w="4820"/>
+              <w:gridCol w:w="5528"/>
+            </w:tblGrid>
+            <w:tr wsp:rsidR="004A0103" wsp:rsidRPr="00A47536" wsp:rsidTr="004A0103">
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="4820"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="004A0103" wsp:rsidR="004A0103" wsp:rsidRDefault="004A0103" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:jc w:val="both"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                    </w:rPr>
+                    <w:t>Согласовано:</w:t>
+                  </w:r>
+                </w:p>
+                <w:p wsp:rsidP="009C511E" wsp:rsidR="004A0103" wsp:rsidRDefault="004A0103" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                    </w:rPr>
+                  </w:pPr>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="5528"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="009C511E" wsp:rsidR="004A0103" wsp:rsidRDefault="004A0103" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                      <w:lang w:val="EN-US"/>
+                    </w:rPr>
+                  </w:pPr>
+                </w:p>
+              </w:tc>
+            </w:tr>
+            <w:tr wsp:rsidR="00A47536" wsp:rsidRPr="00A47536" wsp:rsidTr="004A0103">
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="4820"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="009C511E" wsp:rsidR="004A0103" wsp:rsidRDefault="004A0103" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                    </w:rPr>
+                    <w:t>Руководитель ОИВ ЛО</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:type="dxa" w:w="5528"/>
+                  <w:shd w:color="auto" w:fill="auto" w:val="clear"/>
+                </w:tcPr>
+                <w:p wsp:rsidP="00A47536" wsp:rsidR="004A0103" wsp:rsidRDefault="00A47536" wsp:rsidRPr="00A47536">
+                  <w:pPr>
+                    <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r wsp:rsidRPr="00A47536">
+                    <w:rPr>
+                      <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                      <wx:font wx:val="Times New Roman"/>
+                      <w:sz w:val="28"/>
+                      <w:sz-cs w:val="28"/>
+                      <w:lang w:val="EN-US"/>
+                    </w:rPr>
+                    <w:t><tt:value ref="MAIN.Field_09"/></w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+          </w:tbl>
+          <w:p wsp:rsidP="0091293E" wsp:rsidR="004A0103" wsp:rsidRDefault="004A0103" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:ind w:first-line="709"/>
+              <w:jc w:val="both"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p wsp:rsidP="0091293E" wsp:rsidR="00CC5536" wsp:rsidRDefault="00CC5536" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:ind w:first-line="709"/>
+              <w:jc w:val="both"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:p wsp:rsidP="0091293E" wsp:rsidR="00CC5536" wsp:rsidRDefault="00CC5536" wsp:rsidRPr="00A47536">
+            <w:pPr>
+              <w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+              <w:ind w:first-line="709"/>
+              <w:jc w:val="both"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Times New Roman" w:h-ansi="Times New Roman"/>
+                <wx:font wx:val="Times New Roman"/>
+                <w:sz w:val="28"/>
+                <w:sz-cs w:val="28"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+          <w:sectPr wsp:rsidR="00CC5536" wsp:rsidRPr="00A47536" wsp:rsidSect="004B5946">
+            <w:pgSz w:h="16838" w:w="11906"/>
+            <w:pgMar w:bottom="1134" w:footer="708" w:gutter="0" w:header="708" w:left="1701" w:right="566" w:top="1134"/>
+            <w:cols w:space="708"/>
+            <w:docGrid w:line-pitch="360"/>
+          </w:sectPr>
+        </wx:sect>
+      </w:body>
+    </w:wordDocument>
+  </tt:template>
+
+</tt:transform>

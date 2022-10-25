@@ -1,0 +1,3 @@
+FUNCTION-POOL ZFGHR_MSS_SEARCH_HELP.        "MESSAGE-ID ..
+
+* INCLUDE LZFGHR_MSS_SEARCH_HELPD...         " Local class definition

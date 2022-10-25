@@ -1,0 +1,211 @@
+<xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:sap="http://www.sap.com/sapxsl" version="1.0">
+
+  <xsl:strip-space elements="*"/>
+
+  <xsl:template match="/">
+
+    <?mso-application progid="Excel.Sheet"?>
+
+    <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html=
+"http://www.w3.org/TR/REC-html40">
+      <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+        <Created>2006-09-16T00:00:00Z</Created>
+        <LastSaved>2016-12-23T08:23:42Z</LastSaved>
+        <Version>14.00</Version>
+      </DocumentProperties>
+      <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+        <AllowPNG/>
+        <RemovePersonalInformation/>
+      </OfficeDocumentSettings>
+      <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+        <WindowHeight>8010</WindowHeight>
+        <WindowWidth>14805</WindowWidth>
+        <WindowTopX>240</WindowTopX>
+        <WindowTopY>105</WindowTopY>
+        <ProtectStructure>False</ProtectStructure>
+        <ProtectWindows>False</ProtectWindows>
+      </ExcelWorkbook>
+      <Styles>
+        <Style ss:ID="Default" ss:Name="Normal">
+          <Alignment ss:Vertical="Bottom"/>
+          <Borders/>
+          <Font ss:Color="#000000" ss:FontName="Calibri" ss:Size="11" x:Family="Swiss"/>
+          <Interior/>
+          <NumberFormat/>
+          <Protection/>
+        </Style>
+        <Style ss:ID="s62">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Color="#000000" ss:FontName="Times New Roman" ss:Size="12" x:CharSet="204" x:Family="Roman"/>
+        </Style>
+        <Style ss:ID="s63">
+          <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Color="#000000" ss:FontName="Times New Roman" ss:Size="12" x:CharSet="204" x:Family="Roman"/>
+        </Style>
+        <Style ss:ID="s64">
+          <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Color="#000000" ss:FontName="Times New Roman" ss:Size="11" x:CharSet="204" x:Family="Roman"/>
+        </Style>
+        <Style ss:ID="s66">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+          <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+          </Borders>
+          <Font ss:Color="#000000" ss:FontName="Times New Roman" ss:Size="11" x:CharSet="204" x:Family="Roman"/>
+        </Style>
+        <Style ss:ID="s65">
+          <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+        </Style>
+        <Style ss:ID="s67">
+          <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+        </Style>
+      </Styles>
+      <Names>
+        <NamedRange ss:Name="LINE" ss:RefersTo="=Лист1!R5"/>
+        <NamedRange ss:Name="ZEND" ss:RefersTo="=Лист1!R6"/>
+        <NamedRange ss:Name="ZZZZ" ss:RefersTo="=Лист1!R1C7"/>
+      </Names>
+      <Worksheet ss:Name="Лист1">
+        <Table ss:DefaultRowHeight="15" ss:ExpandedColumnCount="6" x:FullColumns="1" x:FullRows="1">
+          <Column ss:AutoFitWidth="0" ss:Width="57"/>
+          <Column ss:AutoFitWidth="0" ss:Width="197.25"/>
+          <Column ss:AutoFitWidth="0" ss:Width="307.5"/>
+          <Column ss:AutoFitWidth="0" ss:Width="96"/>
+          <Column ss:AutoFitWidth="0" ss:Width="297.75"/>
+          <Column ss:AutoFitWidth="0" ss:Width="108.75"/>
+
+          <Row ss:AutoFitHeight="0" ss:Height="15" ss:Index="2">
+            <Cell ss:MergeAcross="5" ss:StyleID="s67">
+              <Data ss:Type="String">ГРАФИК </Data>
+            </Cell>
+          </Row>
+          <Row ss:AutoFitHeight="0" ss:Height="15" ss:Index="3">
+            <Cell ss:MergeAcross="5" ss:StyleID="s67">
+              <Data ss:Type="String">проведения аттестации государственных гражданских служащих Ленинградской области </Data>
+            </Cell>
+          </Row>
+          <Row ss:AutoFitHeight="0" ss:Height="15" ss:Index="4">
+            <Cell ss:MergeAcross="5" ss:StyleID="s67">
+              <Data ss:Type="String">в органах исполнительной власти Ленинградской области и в аппаратах мировых судей Ленинградской области </Data>
+            </Cell>
+          </Row>
+          <Row ss:AutoFitHeight="0" ss:Height="30" ss:Index="5">
+            <Cell ss:MergeAcross="5" ss:StyleID="s67">
+              <xsl:for-each select="//HEADER/item">
+                <Data ss:Type="String"> на
+
+
+                  <Data ss:Type="String">
+                    <xsl:value-of select="FIELD_01"/>
+                  </Data>
+                </Data>
+              </xsl:for-each>
+            </Cell>
+          </Row>
+
+          <Row ss:AutoFitHeight="0" ss:Height="71.25" ss:Index="6">
+            <Cell ss:StyleID="s63">
+              <Data ss:Type="String">№ п/п</Data>
+            </Cell>
+            <Cell ss:StyleID="s62">
+              <Data ss:Type="String">Наименование ОИВ</Data>
+            </Cell>
+            <Cell ss:StyleID="s62">
+              <Data ss:Type="String">Фамилия, имя, отчество,  должность гражданского служащего</Data>
+            </Cell>
+            <Cell ss:StyleID="s63">
+              <Data ss:Type="String">Дата, время и место проведения аттестации</Data>
+            </Cell>
+            <Cell ss:StyleID="s62">
+              <Data ss:Type="String">Фамилия, имя, отчество руководителя, ответственного за представление в аттестационную комиссию отзыва, годового отчета и копии должностного регламента гражданского служащего</Data>
+            </Cell>
+            <Cell ss:StyleID="s63">
+              <Data ss:Type="String">Дата представления документов в аттестационную комиссию</Data>
+            </Cell>
+          </Row>
+
+          <xsl:for-each select="//TAB1/item">
+            <Row ss:Height="30" ss:StyleID="s65">
+              <Cell ss:StyleID="s66">
+                <Data ss:Type="String">
+                  <xsl:value-of select="FIELD_02"/>
+                </Data>
+                <NamedCell ss:Name="LINE"/>
+              </Cell>
+              <Cell ss:StyleID="s64">
+                <Data ss:Type="String">
+                  <xsl:value-of select="FIELD_03"/>
+                </Data>
+                <NamedCell ss:Name="LINE"/>
+              </Cell>
+              <Cell ss:StyleID="s64">
+                <Data ss:Type="String">
+                  <xsl:value-of select="FIELD_04"/><xsl:text disable-output-escaping="yes"> </xsl:text>
+                  <xsl:value-of select="FIELD_05"/>
+                </Data>
+                <NamedCell ss:Name="LINE"/>
+              </Cell>
+              <Cell ss:StyleID="s64">
+                <Data ss:Type="String">
+                  <xsl:value-of select="FIELD_11"/>
+                </Data>
+                <NamedCell ss:Name="LINE"/>
+              </Cell>
+              <Cell ss:StyleID="s64">
+                <Data ss:Type="String">
+                  <xsl:value-of select="FIELD_12"/><xsl:text disable-output-escaping="yes"> </xsl:text>
+                  <xsl:value-of select="FIELD_13"/>
+                </Data>
+                <NamedCell ss:Name="LINE"/>
+              </Cell>
+              <Cell ss:StyleID="s64">
+                <NamedCell ss:Name="LINE"/>
+              </Cell>
+            </Row>
+          </xsl:for-each>
+
+        </Table>
+        <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+          <PageSetup>
+            <Header x:Margin="0.3"/>
+            <Footer x:Margin="0.3"/>
+            <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+          </PageSetup>
+          <Selected/>
+          <Panes>
+            <Pane>
+              <Number>3</Number>
+              <ActiveRow>8</ActiveRow>
+              <ActiveCol>1</ActiveCol>
+            </Pane>
+          </Panes>
+          <ProtectObjects>False</ProtectObjects>
+          <ProtectScenarios>False</ProtectScenarios>
+        </WorksheetOptions>
+      </Worksheet>
+    </Workbook>
+
+  </xsl:template>
+
+</xsl:transform>

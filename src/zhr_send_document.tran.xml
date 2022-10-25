@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZHR_SEND_DOCUMENT</TCODE>
+    <PGMNA>ZHR_PA_SEND_DOCUMENTS</PGMNA>
+    <DYPNO>1000</DYPNO>
+    <CINFO>gA==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZHR_SEND_DOCUMENT</TCODE>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>R</SPRSL>
+    <TCODE>ZHR_SEND_DOCUMENT</TCODE>
+    <TTEXT>Рассылка документов</TTEXT>
+   </TSTCT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

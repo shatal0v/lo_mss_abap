@@ -1,0 +1,45 @@
+<xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:sap="http://www.sap.com/sapxsl" version="1.0">
+
+  <xsl:strip-space elements="*"/>
+  <!--  <xsl:template match="/">-->
+  <xsl:template match="MAIN">
+    <Zajavlenie>
+      <DolzhnostPredstaviteljaNanimatelja>
+        <xsl:value-of select="FIELD_01"/>
+      </DolzhnostPredstaviteljaNanimatelja>
+      <FioPredstaviteljaNanimatelja>
+        <xsl:value-of select="FIELD_02"/>
+      </FioPredstaviteljaNanimatelja>
+      <DolzhnostRabotnika>
+        <xsl:value-of select="FIELD_03"/>
+      </DolzhnostRabotnika>
+      <FioRabotnika>
+        <xsl:value-of select="FIELD_04"/>
+      </FioRabotnika>
+      <VidOtsutstvija>
+        <xsl:value-of select="FIELD_05"/>
+      </VidOtsutstvija>
+      <PeriodIkolichestvoKalendarnyhDnej>
+        <xsl:value-of select="FIELD_06"/>
+      </PeriodIkolichestvoKalendarnyhDnej>
+      <Prichina>
+        <xsl:value-of select="FIELD_07"/>
+      </Prichina>
+      <PrilagaemyeDokumenty>
+        <xsl:value-of select="FIELD_08"/>
+      </PrilagaemyeDokumenty>
+      <God>
+        <xsl:value-of select="FIELD_11"/>
+      </God>
+      <UtverzhdennyjPeriodOtpuska>
+        <xsl:value-of select="FIELD_12"/>
+      </UtverzhdennyjPeriodOtpuska>
+      <IzmenennyjPeriodOtpuska>
+        <xsl:value-of select="FIELD_13"/>
+      </IzmenennyjPeriodOtpuska>
+      <ArgumentirovannajaPrichinaPerenosa>
+        <xsl:value-of select="FIELD_14"/>
+      </ArgumentirovannajaPrichinaPerenosa>
+    </Zajavlenie>
+  </xsl:template>
+</xsl:transform>

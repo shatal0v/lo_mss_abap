@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_Z_MSS_VAC_CALENDAR_DPC_EXT</CLSNAME>
+    <LANGU>R</LANGU>
+    <DESCRIPT>Data Provider Secondary Class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_Z_MSS_VAC_CALENDAR_DPC_EXT</CLSNAME>
+     <CMPNAME>GC_TVARV_GSS_ORGVIEW</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Имя ракурса OADP в TVARV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_Z_MSS_VAC_CALENDAR_DPC_EXT</CLSNAME>
+     <CMPNAME>GET_ALL_EMPL_BY_OADP</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Получить всех подчиненных работников</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_Z_MSS_VAC_CALENDAR_DPC_EXT</CLSNAME>
+     <CMPNAME>GET_GSS_ORGVIEW</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Получить ракурс OADP для Календаря работников</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_Z_MSS_VAC_CALENDAR_DPC_EXT</CLSNAME>
+     <CMPNAME>MO_MESS</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>mo_mess</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
